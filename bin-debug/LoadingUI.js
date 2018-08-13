@@ -40,14 +40,17 @@ var LoadingUI = (function (_super) {
     __extends(LoadingUI, _super);
     function LoadingUI() {
         var _this = _super.call(this) || this;
-        _this.createView();
+        _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.onAddToStage, _this);
         return _this;
     }
+    LoadingUI.prototype.onAddToStage = function (event) {
+        this.createView();
+    };
     LoadingUI.prototype.createView = function () {
         this.textField = new egret.TextField();
         this.addChild(this.textField);
         this.textField.y = 400;
-        this.textField.x = (1200 - 480) / 2;
+        this.textField.x = (this.stage.stageWidth - 480) / 2;
         this.textField.width = 480;
         this.textField.height = 100;
         this.textField.textAlign = "center";
@@ -55,7 +58,7 @@ var LoadingUI = (function (_super) {
         this.progressBar = new egret.Shape();
         this.progressBar.height = 30;
         this.progressBar.width = 480;
-        this.progressBar.x = (1200 - 480) / 2;
+        this.progressBar.x = (this.stage.stageWidth - 480) / 2;
         this.progressBar.y = 350;
         this.progressBar.graphics.beginFill(0xcccccc, 1);
         this.progressBar.graphics.drawRoundRect(0, 0, 480, 30, 30);
