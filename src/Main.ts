@@ -101,7 +101,17 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
+
+        // var bg:egret.Shape = new egret.Shape;
+        // bg.graphics.beginFill(0xcccccc,1);
+        // bg.graphics.drawRect(0, 0, 1200, 900);
+        // bg.graphics.endFill();
+        // this.addChild(bg);
+        
         var p = new Preview();
+        p.width = 1200;
+        p.height = 900;
+        p.horizontalCenter = 0;
         // var g = new CircleSector();
         this.addChild(p);
     }

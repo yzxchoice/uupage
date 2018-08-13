@@ -1,0 +1,280 @@
+{
+	"groups": [
+		{
+			"keys": "fatcap_png,dunny_png,piggy_png,skeleton_json,skeleton_tex_json,skeleton_tex_png,gameEui_json,bg1_jpg,data_json,phonewhite_svg,test_mp3,test2_mp3,jt2_png,4_png,3_png,5_png,1_png,2_png,phone16_png,timg_jpg,animation_json,animation_png,description_json,animation2_json,animation2_png,timg2_jpg,data2_json,timg3_jpg,12_png,22_png,32_png,42_png,52_png,bg12_jpg,circle2_png,dunny2_png,fatcap2_png,jt22_png,phone162_png,phonewhite2_svg,piggy2_png,test3_mp3,test22_mp3,skeleton2_json,skeleton_tex2_json,skeleton_tex2_png,animation3_json,animation3_png,gameEui2_json,button_down_png,button_up_png,thumb_pb_png,track_pb_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/piggy.png",
+			"type": "image",
+			"name": "piggy_png"
+		},
+		{
+			"url": "assets/dunny.png",
+			"type": "image",
+			"name": "dunny_png"
+		},
+		{
+			"url": "assets/fatcap.png",
+			"type": "image",
+			"name": "fatcap_png"
+		},
+		{
+			"name": "skeleton_json",
+			"type": "json",
+			"url": "assets/armature/skeleton.json"
+		},
+		{
+			"name": "skeleton_tex_json",
+			"type": "json",
+			"url": "assets/armature/skeleton_tex.json"
+		},
+		{
+			"name": "skeleton_tex_png",
+			"type": "image",
+			"url": "assets/armature/skeleton_tex.png"
+		},
+		{
+			"name": "gameEui_json",
+			"type": "json",
+			"url": "gameEui.json"
+		},
+		{
+			"name": "bg1_jpg",
+			"type": "image",
+			"url": "assets/bg1.jpg"
+		},
+		{
+			"name": "data_json",
+			"type": "json",
+			"url": "data.json"
+		},
+		{
+			"name": "phonewhite_svg",
+			"type": "image",
+			"url": "assets/phonewhite.svg"
+		},
+		{
+			"name": "test_mp3",
+			"type": "sound",
+			"url": "assets/test.mp3"
+		},
+		{
+			"name": "test2_mp3",
+			"type": "sound",
+			"url": "assets/test2.mp3"
+		},
+		{
+			"name": "jt2_png",
+			"type": "image",
+			"url": "assets/jt2.png"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "assets/4.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "assets/3.png"
+		},
+		{
+			"name": "5_png",
+			"type": "image",
+			"url": "assets/5.png"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "assets/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "assets/2.png"
+		},
+		{
+			"name": "circle_png",
+			"type": "image",
+			"url": "assets/circle.png"
+		},
+		{
+			"name": "phone16_png",
+			"type": "image",
+			"url": "assets/phone16.png"
+		},
+		{
+			"name": "timg_jpg",
+			"type": "image",
+			"url": "assets/timg.jpg"
+		},
+		{
+			"name": "animation_json",
+			"type": "json",
+			"url": "assets/mc/animation.json"
+		},
+		{
+			"name": "animation_png",
+			"type": "image",
+			"url": "assets/mc/animation.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "animation2_json",
+			"type": "json",
+			"url": "assets/mc/animation.json"
+		},
+		{
+			"name": "animation2_png",
+			"type": "image",
+			"url": "assets/mc/animation.png"
+		},
+		{
+			"name": "timg2_jpg",
+			"type": "image",
+			"url": "assets/timg.jpg"
+		},
+		{
+			"name": "data2_json",
+			"type": "json",
+			"url": "data.json"
+		},
+		{
+			"name": "timg3_jpg",
+			"type": "image",
+			"url": "assets/timg.jpg"
+		},
+		{
+			"name": "12_png",
+			"type": "image",
+			"url": "assets/1.png"
+		},
+		{
+			"name": "22_png",
+			"type": "image",
+			"url": "assets/2.png"
+		},
+		{
+			"name": "32_png",
+			"type": "image",
+			"url": "assets/3.png"
+		},
+		{
+			"name": "42_png",
+			"type": "image",
+			"url": "assets/4.png"
+		},
+		{
+			"name": "52_png",
+			"type": "image",
+			"url": "assets/5.png"
+		},
+		{
+			"name": "bg12_jpg",
+			"type": "image",
+			"url": "assets/bg1.jpg"
+		},
+		{
+			"name": "circle2_png",
+			"type": "image",
+			"url": "assets/circle.png"
+		},
+		{
+			"name": "dunny2_png",
+			"type": "image",
+			"url": "assets/dunny.png"
+		},
+		{
+			"name": "fatcap2_png",
+			"type": "image",
+			"url": "assets/fatcap.png"
+		},
+		{
+			"name": "jt22_png",
+			"type": "image",
+			"url": "assets/jt2.png"
+		},
+		{
+			"name": "phone162_png",
+			"type": "image",
+			"url": "assets/phone16.png"
+		},
+		{
+			"name": "phonewhite2_svg",
+			"type": "image",
+			"url": "assets/phonewhite.svg"
+		},
+		{
+			"name": "piggy2_png",
+			"type": "image",
+			"url": "assets/piggy.png"
+		},
+		{
+			"name": "test3_mp3",
+			"type": "sound",
+			"url": "assets/test.mp3"
+		},
+		{
+			"name": "test22_mp3",
+			"type": "sound",
+			"url": "assets/test2.mp3"
+		},
+		{
+			"name": "skeleton2_json",
+			"type": "json",
+			"url": "assets/armature/skeleton.json"
+		},
+		{
+			"name": "skeleton_tex2_json",
+			"type": "json",
+			"url": "assets/armature/skeleton_tex.json"
+		},
+		{
+			"name": "skeleton_tex2_png",
+			"type": "image",
+			"url": "assets/armature/skeleton_tex.png"
+		},
+		{
+			"name": "animation3_json",
+			"type": "json",
+			"url": "assets/mc/animation.json"
+		},
+		{
+			"name": "animation3_png",
+			"type": "image",
+			"url": "assets/mc/animation.png"
+		},
+		{
+			"name": "gameEui2_json",
+			"type": "json",
+			"url": "gameEui.json"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"name": "thumb_pb_png",
+			"type": "image",
+			"url": "assets/ProgressBar/thumb_pb.png"
+		},
+		{
+			"name": "track_pb_png",
+			"type": "image",
+			"url": "assets/ProgressBar/track_pb.png"
+		}
+	]
+}
